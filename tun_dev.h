@@ -8,7 +8,7 @@
 
 #ifndef TUN_DEV_H_
 #define TUN_DEV_H_
-
+#define NOLIMIT
 #include "common.h"
 #include "log.h"
 #include "misc.h"
