@@ -123,7 +123,7 @@ int from_fec_to_normal2(conn_info_t & conn_info,dest_t &dest,char * data,int len
 	{
 
 #ifndef NOLIMIT
-#		if(program_mode==server_mode)
+		if(program_mode==server_mode)
 		{
 			char * tmp_data=out_arr[i];
 			int tmp_len=out_len[i];
